@@ -7,8 +7,7 @@ static const char *GENRES[GENRE_AMOUNT] = {"action",     "adventure", "rpg",    
                                            "racing",     "sports",    "horror",     "survival",
                                            "sandbox",    "roguelike", "fighting",   "multiplayer"};
 
-// Creates a game with a name and genres, and stores it into METADATA_FILE. Cancelling
-// midway doesn't save the game.
+// Creates a game with a name and genres, and stores it into METADATA_FILE.
 void add_game(void)
 {
     game new_game;
