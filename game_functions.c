@@ -1,4 +1,5 @@
-#include "headers.h"
+#include "game_functions.h"
+#include "string_helpers.h"
 #include <stdlib.h>
 #include <string.h>
 
